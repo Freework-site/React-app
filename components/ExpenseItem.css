@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    height: 100vh;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.ExpenseItem
+{
+    width: 100vw;
+    background-color: #666;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.ExpenseItem_description
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2
+{
+    color: #fff;
+    margin-left: 20px;
+}
+.ExpenseItem_price
+{
+    background-color: #3c0081;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
